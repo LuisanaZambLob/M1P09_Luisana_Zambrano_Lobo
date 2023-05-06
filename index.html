@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="grupo musical, exitos musicales, banda pop">
+
+<!--Cambiar el título a “Práctica 9”-->
+    <title>Práctica 9</title>
+
+<!--Anchura del 50% del ancho de la pantalla-->
+<!--Un borde de 5 -->
+<!--Le pondremos el color que queramos a la tabla.-->
+<!-- Cambiaremos el tamaño del encabezado de la tabla y el tipo de letra.-->
+<!-- Cambiaremos el tipo de letra de las celdas y centraremos su contenido-->
+    <style>
+        
+    table {
+        width: 50%;
+        border-collapse: collapse;
+    }
+        th {
+            font-size: 24px;
+            text-align: center;
+            background-color: aqua;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: 5px solid rgb(175, 175, 183);
+
+        }
+        td {
+            
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: white;
+            border: 5px solid rgb(175, 175, 183);
+        }
+    </style>
+</head>
+
+<!--La página deberá tener un encabezado centrado con el nombre del grupo al que se la dedicamos.-->
+<body>
+    <h1 style="text-align: center;">Backstreet Boys</h1>
+
+<!--Deberá incluir una imagen del grupo centrada. La imagen deberá tener un anchura máxima de 600 pixeles y un alto que 
+pondremos automático.-->
+    <img src="backstreet-boys.jpg" alt="Grupo musical" style="display:block; margin:auto; max-width:600px; height:auto;">
+
+<!--Un artículo de varios párrafos con una breve descripción del grupo-->
+    <article>
+        <h2>Backstreet boys</h2>
+        <p>
+            Backstreet Boys es un grupo musical-vocal estadounidense de música pop fundada en la ciudad de Orlando, Florida, el 20 de abril de 1993. La banda está integrada por A. J. McLean, Howie Dorough, Brian Littrell, Nick Carter y Kevin Richardson. Saltaron a la fama con su álbum debut, Backstreet Boys.
+        </p>
+        <p>
+            El siguiente álbum, Backstreet's Back (1997) continuó con el éxito del grupo en todo el mundo. Llegaron al estrellato con su álbum Millennium (1999) y el álbum siguiente, Black & Blue (2000). También lanzaron un álbum de grandes éxitos, The Hits - Chapter One (2001). Los álbumes Backstreet Boys y Millennium fueron certificados como diamantes por la Recording Industry Association of America (RIAA).  
+        </p>
+        <p>
+            Después de un descanso de tres años, la banda ha lanzado cinco álbumes Never Gone (2005), con el que Richardson dejó el grupo, Unbreakable (2007), This Is Us (2009), junto a los New Kids on the Block (2011), In a World Like This con el regreso de Kevin (2013) celebraron su vigésimo aniversario con su primer álbum independiente, y luego de 6 años su reciente álbum DNA (2019), debutó en el número uno, más de dos décadas después de que se formara el grupo, y 19 años después de su última cima en 2000. Se convirtieron en la primera boy band en encabezar las listas de álbumes de Estados Unidos en tres décadas.
+        </p>
+        <p>
+            La banda ha vendido más de 140 millones de producciones musicales, lo que los convierte en la boy band más vendida de todos los tiempos y en uno de los artistas musicales más vendidos del mundo. Son el primer grupo desde Led Zeppelin en que sus primeros diez álbumes alcanzan el top 10 en el Billboard 200, 1​ y se convierten en la única boy band en lograrlo. El grupo recibió una estrella en el Paseo de la Fama de Hollywood el 22 de abril de 2013. El grupo también lanzó su primer película documental titulada Backstreet Boys: Show 'Em What You're Made Of en 2015.
+        </p>
+    </article>
+
+<!--Crearemos una tabla con seis filas y tres columnas.-->
+<!-- Un espaciamiento entre celdas de 10 -->
+    <table style="border-spacing: 10px;">
+
+<!--La primera fila debe ocupar todas las celdas y pondrá: “Top 3 canciones de (nombre de nuestro grupo)”.-->
+        <tr> 
+            <th colspan="3" style="text-align: center;">Top 3 canciones de los Backstreet Boys</th>
+        </tr>
+
+<!--La segunda fila nos indicará el nombre de la canción, el álbum al que pertenece y el tiempo que dura la canción.-->
+        <tr>
+            <th>Nombre</th> 
+            <th>Álbum</th>
+            <th>Tiempo</th>
+        </tr>
+
+<!--Las tres siguientes filas contendrán la información de las canciones que hayamos escogido. El nombre de la canción 
+deberá contener un enlace que nos dirija al videoclip de la canción en YouTube u otra plataforma.-->
+        <tr>
+            <td><a href="https://youtu.be/6M6samPEMpM">Everybody</a></td>
+            <td>Backstreet's Back</td>
+            <td>6:02</td>
+        </tr>
+        <tr>
+            <td><a href="https://youtu.be/4fndeDfaWCg">I want it that way back</a></td>
+            <td>Millennium</td>
+            <td>3:39</td>
+        </tr>
+        <tr>
+            <td><a href="https://youtu.be/MEb2CecR11I">Larger than life</a></td>
+            <td>Millennium</td>
+            <td>5:18</td>
+        </tr>
+
+<!--La última fila ocupará todas las celdas y contendrá un enlace hacia la página oficial del grupo.-->
+        <tr>
+            <td colspan="3" style="text-align:center;"><a href="https://backstreetboys.com/">Página oficial</a></td>
+        </tr>
+    </table>
+</body>
+</html>
